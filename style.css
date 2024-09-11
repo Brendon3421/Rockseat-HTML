@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+:root {
+    --text: "Alice", serif;
+}
+
+body {
+    background-image: url("imgs/main-image.png");
+    background-color: #573824;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    font-family: var(--text);
+}
+
+p {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: regular;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #F0E8C2;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 72rem;
+    width: 40%;
+    background-color: #F0E8C2;
+    border-radius: 40px;
+    margin-bottom: 0;
+    margin-top: 48px;
+
+}
+
+.imgs {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    margin-top: 0.5rem;
+    height: 19rem;
+    width: 33rem;
+    border-radius: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imgs img {
+    position: relative;
+    display: flex;
+    width: 560px;
+    border-radius: 16px;
+}
+
+.title {
+    position: relative;
+    font-family: var(--text);
+    font-size: 30px;
+    line-height: 140%;
+    font-weight: regular;
+    margin-bottom: 0;
+
+}
+
+.card-main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 250px;
+    margin-right: 5%;
+    height: auto;
+}
+
+.span-title {
+    display: inline;
+
+}
+
+.other p {
+    position: relative;
+    margin-bottom: -20px;
+}
+
+.modo-preparo p {
+    font-family: var(--text);
+    font-size: 14px;
+}
+
+.ingredientes {
+    font-family: var(--text);
+    font-size: 14px;
+}
